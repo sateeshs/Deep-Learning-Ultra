@@ -35,3 +35,9 @@ Open source Deep Learning Containers (DLCs) are a set of Docker images for train
 
 ![a](./misc/b.png)
 ![a](./misc/d.png)
+----------------------------------------------------------------------------
+### Run Jupyter
+- docker exec -it 9cc005c23489  bash
+- jupyter notebook list
+- open VSCode connect to jupyter server
+

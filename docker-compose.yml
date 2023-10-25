@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   deep_learning:
-    image: jhoeller/computer-vision:ultra
+    image: jhoeller/computer-vision
     volumes:
       - /app/:/app
     ports:
@@ -14,7 +14,7 @@ services:
         reservations:
           devices:
           - driver: nvidia
-            count: 3  # num of gpus
+            #count: 3  # num of gpus
             capabilities: [gpu]
     restart: always
 
